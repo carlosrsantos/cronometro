@@ -26,7 +26,7 @@ class App extends Component {
         state.botao = 'INICIAR';
       }else{
         this.timer = setInterval(()=>{
-        let state = this.state;
+        /*let state = this.state; */
         state.numero += 0.1;
         this.setState(state);
       },100);
