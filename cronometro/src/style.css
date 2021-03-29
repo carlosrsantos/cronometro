@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img{
+    width: 350px;
+    height: 350px;
+    padding-top: 100px;
+}
+
+.timer{
+    font-size: 50px;
+    margin-top: -200px;
+}
